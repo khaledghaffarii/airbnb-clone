@@ -1,18 +1,15 @@
 import Head from 'next/head'
+import Header from '../components/Header';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-       <div>
-         <p>Let's a Build the airbn clone !!!</p>
-       </div>
-      </main>
+      <Header/>
 
      
     </div>
